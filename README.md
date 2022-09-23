@@ -18,5 +18,4 @@ Mini-Nas comunica tramite http in rete locale alla porta 8080. L'applicativo off
 ## Avvio
 node start
 
-## Note
-Questa applicazione è in versione apha ed in quanto tale non da la disponibilà agli utenti non amministratori di interagire con i dischi 
+
