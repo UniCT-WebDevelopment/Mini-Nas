@@ -1,0 +1,25 @@
+extend layout 
+
+block button
+    .buttons
+        p#night.material-icons dark_mode
+        a.material-icons(href="/login") logout 
+block menu
+    ul#menu
+      li#account(active="false") 
+        .material-icons manage_accounts
+        div Account
+      li#setting(active="false")
+        .material-icons extension    
+        div Plugin
+      li#storage(active="false")
+        .material-icons archive
+        div Storage
+      li#system(active="false")
+        .material-icons info
+        div System
+block content
+    #contenitor
+block js
+    script(src="/javascripts/admin_dash.js") 
+    script(src="/javascripts/night.js")

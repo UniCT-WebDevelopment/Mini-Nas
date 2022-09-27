@@ -1,0 +1,21 @@
+extend layout
+
+block button 
+      .buttons
+        p#night.material-icons dark_mode
+block content 
+  .contenitor
+    form.card#login(action='/' method='post')
+      h2.neon Login
+      p.error #{error}
+      div
+        label.neon(for='usr') Username
+        input(type='text' name='usr')
+      div
+        label.neon(for='pass') Password
+        input#logPass(type='password' name='pass')
+      input.btn(type='submit' value='Send')
+
+
+block js
+    script(src="/javascripts/night.js")
