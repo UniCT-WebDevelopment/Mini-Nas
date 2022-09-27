@@ -1,5 +1,5 @@
 # Mini-Nas
-Mini-Nas è un applicativo che permette la condivisione di dischi da remoto tramite il browser ad una determinata cerchia di utenti registrati dall'amministratore
+Mini-Nas è un applicativo che permette la manipolazione di dischi da remoto tramite il browser ad una determinata cerchia di utenti registrati dall'amministratore
 
 ## Requisiti
 Sistema operativo linux-like avente installato il pacchetto utils-linux. Se quest'ultimo non fosse installato correttamente o fosse installato parzialmente l'app riconoscerebbe automaticamente quale funzione potrebbe essere eseguita.
